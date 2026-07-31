@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.timely.com/security/
+docs: https://www.timely.com/security/
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    "Timely is ISO 27001:2022 certified" — information security management
+    system independently audited (https://www.timely.com/security/).
+- id: gdpr
+  conforms: true
+  evidence: >-
+    GDPR compliance via Data Processing Agreement and privacy-by-design;
+    referenced on the security page (https://www.timely.com/security/).
+- id: soc2
+  conforms: false
+  evidence: >-
+    Not certified; Timely states it has prioritised ISO 27001 over SOC 2
+    (https://www.timely.com/security/).
+- id: hipaa
+  conforms: false
+  evidence: >-
+    Explicitly not HIPAA compliant; product not designed to store or process
+    PHI (https://www.timely.com/security/).
+- id: oauth2
+  conforms: true
+  evidence: >-
+    API secured with OAuth 2.0; authorization endpoint redirects to
+    app.timelyapp.com/oauth/authorize.

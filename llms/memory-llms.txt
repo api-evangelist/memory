@@ -1,0 +1,27 @@
+# Memory (Timely)
+
+> Memory AS, operating as Timely (timely.com), is an Oslo, Norway based software company behind Timely — an AI-powered automatic time tracking and timesheet platform for consultancies, agencies, professional-services firms and SaaS teams. Its Memory engine passively captures work across the apps a person uses and AutoSheet auto-completes timesheets. Timely exposes a REST API at api.timelyapp.com (version 1.1) secured with OAuth 2.0.
+
+## API
+- [Timely API base](https://api.timelyapp.com/1.1): REST API (v1.1), OAuth 2.0 bearer auth, for accounts, projects, clients, users, events (time entries), labels and reports.
+- [Developer portal / API reference](https://developer.timely.com/): full reference behind authenticated login (app.timelyapp.com/auth/docs).
+
+## Authentication
+- OAuth 2.0 authorization-code flow; authorize endpoint redirects to [app.timelyapp.com/oauth/authorize](https://app.timelyapp.com/oauth/authorize).
+- See authentication/memory-authentication.yml in this repo.
+
+## Docs
+- [Integrations (90+ partners)](https://www.timely.com/integrations/)
+- [Pricing](https://www.timely.com/pricing/)
+- [Help center](https://www.timely.com/help/)
+- [Blog](https://www.timely.com/blog/)
+- [Security (ISO 27001:2022, GDPR)](https://www.timely.com/security/)
+- [Status](https://www.timely.com/status/)
+
+## Legal
+- [Terms of service](https://www.timely.com/terms/)
+- [Privacy policy](https://www.timely.com/privacy-policy/)
+
+## Sign up
+- [Create account](https://app.timelyapp.com/join)
+- [Log in](https://app.timelyapp.com/login)

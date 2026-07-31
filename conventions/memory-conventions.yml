@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://developer.timely.com/
+docs: https://developer.timely.com/
+summary: >-
+  Cross-cutting request/response conventions for the Timely REST API
+  (api.timelyapp.com/1.1). Captured from the public developer surface; fields
+  documented only behind the authenticated portal are left null rather than
+  fabricated.
+conventions:
+  authentication:
+    style: oauth2-bearer
+    detail: OAuth 2.0 authorization-code flow; requests carry a bearer access token.
+    ref: authentication/memory-authentication.yml
+  versioning:
+    scheme: uri-path
+    current: '1.1'
+    detail: API version is pinned in the base path, e.g. api.timelyapp.com/1.1.
+    ref: lifecycle/memory-lifecycle.yml
+  base_url: https://api.timelyapp.com/1.1
+  transport:
+    protocol: https
+    format: json
+  idempotency:
+    supported: null
+    detail: No public idempotency-key contract is documented on the open developer surface.
+  pagination:
+    style: null
+    detail: Pagination parameters are documented behind the authenticated developer portal.
+  rate_limiting:
+    signaled: null
+    detail: Rate-limit headers/policy not published on the open developer surface.
+  error_envelope:
+    format: null
+    ref: null

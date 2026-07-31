@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.timely.com/status/
+versioning:
+  scheme: uri-path
+  current: '1.1'
+  detail: API version pinned in the base path (api.timelyapp.com/1.1).
+deprecation:
+  policy_url: null
+  sunset_header: null
+  detail: No public deprecation policy or RFC 8594 Sunset-header support documented on the open surface.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://www.timely.com/status/
+status_page_note: >-
+  Self-hosted status hub at timely.com/status; no external provider
+  (statuspage.io/instatus) detected.
+deprecated_operations: []

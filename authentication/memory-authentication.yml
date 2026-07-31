@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://developer.timely.com/
+docs: https://developer.timely.com/
+notes: >-
+  Timely's REST API (api.timelyapp.com/1.1) is secured with OAuth 2.0. The API
+  authorization endpoint https://api.timelyapp.com/1.1/oauth/authorize redirects
+  (HTTP 302) to https://app.timelyapp.com/oauth/authorize, confirming a
+  browser-based OAuth authorization flow; API requests are made with a bearer
+  access token. Exact token endpoint and scope list are documented behind the
+  authenticated developer portal (login via app.timelyapp.com/auth/docs) and are
+  not asserted here to avoid fabrication.
+summary:
+  types:
+  - oauth2
+  api_key_in: []
+  oauth2_flows:
+  - authorizationCode
+schemes:
+- name: OAuth2
+  type: oauth2
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://app.timelyapp.com/oauth/authorize
+    tokenUrl: https://api.timelyapp.com/1.1/oauth/token
+    tokenUrl_note: >-
+      token URL inferred from the api.timelyapp.com/1.1 base and standard Timely
+      OAuth layout; verify against the authenticated developer portal.
+  sources:
+  - https://developer.timely.com/
