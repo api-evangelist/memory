@@ -1,0 +1,75 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.timely.com/pricing/
+sources:
+- https://www.timely.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Starter
+published: true
+note: Per-user SaaS time-tracking plans; API access listed as a feature of plans (Unlimited+ for API).
+plan_count: 8
+currency: USD
+plans:
+- name: Starter (monthly)
+  price_text: $11 usd/mo
+  price: 11
+  currency: USD
+  period: month
+  unit: per user per mo. billed monthly
+  included_quota: 20 projects, Max 5 users
+- name: Premium (monthly)
+  price_text: $20 usd/mo
+  price: 20
+  currency: USD
+  period: month
+  unit: per user per mo. billed monthly
+  included_quota: Unlimited projects, Max 50 users
+- name: Unlimited (monthly)
+  price_text: $28 usd/mo
+  price: 28
+  currency: USD
+  period: month
+  unit: per user per mo. billed monthly
+  included_quota: Unlimited projects, Unlimited users
+- name: Starter (yearly)
+  price_text: $9 usd/mo
+  price: 9
+  currency: USD
+  period: month
+  unit: per user per mo. billed yearly
+  included_quota: 20 projects, Max 5 users
+- name: Premium (yearly)
+  price_text: $16 usd/mo
+  price: 16
+  currency: USD
+  period: month
+  unit: per user per mo. billed yearly
+  included_quota: Unlimited projects, Max 50 users
+- name: Unlimited (yearly)
+  price_text: $22 usd/mo
+  price: 22
+  currency: USD
+  period: month
+  unit: per user per mo. billed yearly
+  included_quota: Unlimited projects, Unlimited users
+- name: Enterprise
+  price_text: Contact sales
+  period: none
+  included_quota: All Unlimited features
+- name: Tasks add-on
+  price_text: $5 per person
+  price: 5
+  currency: USD
+  period: month
+  unit: per person
+  included_quota: Add Tasks to any subscription plan
